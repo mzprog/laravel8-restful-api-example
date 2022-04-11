@@ -123,7 +123,7 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
-    
+
     /*
     |--------------------------------------------------------------------------
     | Application Default Phone Country
@@ -191,6 +191,8 @@ return [
         App\Providers\TelescopeServiceProvider::class,
         App\Providers\RepositoryServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
+
+        L5Swagger\L5SwaggerServiceProvider::class,
 
     ],
 
